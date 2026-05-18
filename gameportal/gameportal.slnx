@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="gameportal.client/gameportal.client.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+  <Project Path="gameportal.Server/gameportal.Server.csproj" />
+</Solution>

@@ -1,0 +1,7 @@
+function SnakeControls() {
+  return (
+    <p>Hello world!</p>
+  );
+}
+
+export default SnakeControls;

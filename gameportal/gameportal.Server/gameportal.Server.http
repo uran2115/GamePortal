@@ -1,0 +1,6 @@
+@gameportal.Server_HostAddress = http://localhost:5216
+
+GET {{gameportal.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
