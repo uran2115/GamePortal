@@ -19,3 +19,34 @@ body {
         transform: scaleX(1);
     }
 }
+
+.vertical-slider {
+    writing-mode: vertical-lr;
+    direction: rtl;
+    width: 52px;
+    height: 420px;
+    appearance: none;
+    border-radius: 999px;
+    cursor: pointer;
+}
+
+    .vertical-slider::-webkit-slider-thumb {
+        appearance: none;
+        width: 24px;
+        height: 24px;
+        border-radius: 999px;
+        background: white;
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+    }
+
+.hue-slider {
+    background: linear-gradient( to top, red, magenta, blue, cyan, lime, yellow, red );
+}
+
+.saturation-slider {
+    background: linear-gradient( to top, #808080, #4f46e5 );
+}
+
+.lightness-slider {
+    background: linear-gradient( to top, #000, #4f46e5, #fff );
+}
