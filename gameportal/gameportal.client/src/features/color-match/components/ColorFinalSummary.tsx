@@ -29,7 +29,7 @@ function ColorFinalSummary({
                 p-5
                 sm:p-8
                 w-[95vw]
-                max-w-[900px]
+                max-w-[700px]
                 shadow-[0_0_80px_rgba(0,0,0,0.55)]
             "
         >
@@ -58,8 +58,8 @@ function ColorFinalSummary({
                             key={result.round}
                             className="
                                 bg-zinc-800/45
-                                rounded-3xl
-                                p-4
+                                rounded-2xl
+                                p-2
                                 grid
                                 grid-cols-[50px_minmax(190px,1fr)]
                                 sm:grid-cols-[70px_300px_1px_130px]
@@ -77,7 +77,7 @@ function ColorFinalSummary({
                                     grid
                                     grid-cols-2
                                     w-full
-                                    h-[96px]
+                                    h-[80px]
                                     min-w-[190px]
                                     overflow-hidden
                                     rounded-xl

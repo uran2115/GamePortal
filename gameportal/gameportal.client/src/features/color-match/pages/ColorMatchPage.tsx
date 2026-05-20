@@ -47,7 +47,7 @@ function ColorMatchPage() {
                     absolute
                     top-6
                     left-6
-                    bg-zinc-800
+                    bg-zinc
                     hover:bg-zinc-700
                     px-4
                     py-2
@@ -56,7 +56,7 @@ function ColorMatchPage() {
                     z-20
                 "
             >
-                ← Powrót
+                ← Back
             </Link>
 
             <div className="relative z-10">
@@ -84,7 +84,7 @@ function ColorMatchPage() {
                 )}
 
                 {phase === "guess" && (
-                    <div className="flex flex-col items-center gap-8">
+                    <div className="flex flex-col items-center gap-6">
                         <div className="text-xl font-bold text-zinc-400">
                             Round {round} / {totalRounds}
                         </div>

@@ -36,7 +36,7 @@ function ColorDisplay({
             />
 
             <p className="text-zinc-400 font-bold">
-                Zapamiętaj kolor
+                Remember the color
             </p>
         </div>
     );
