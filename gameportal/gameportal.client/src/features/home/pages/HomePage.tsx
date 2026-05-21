@@ -22,6 +22,11 @@ function HomePage() {
             title: "Color Match",
             description: "Zapamiętaj i odtwórz kolor",
         },
+        {
+            path: "/sequence-memory",
+            title: "Sequence Memory",
+            description: "Zapamiętaj kolejność pól",
+        },
     ];
 
     return (
