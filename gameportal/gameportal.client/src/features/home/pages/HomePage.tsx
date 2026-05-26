@@ -27,6 +27,11 @@ function HomePage() {
             title: "Sequence Memory",
             description: "Zapamiętaj kolejność pól",
         },
+        {
+            path: "/number-memory",
+            title: "Number Memory",
+            description: "Zapamiętaj coraz dłuższą liczbę",
+        },
     ];
 
     return (

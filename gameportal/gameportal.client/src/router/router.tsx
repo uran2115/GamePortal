@@ -6,6 +6,7 @@ import TicTacToePage from "../features/tictactoe/pages/TicTacToePage";
 import SnakePage from "../features/snake/pages/SnakePage";
 import ColorMatchPage from "../features/color-match/pages/ColorMatchPage";
 import SequenceMemoryPage from "../features/sequence-memory/pages/SequenceMemoryPage";
+import NumberMemoryPage from "../features/number-memory/pages/NumberMemoryPage";
 
 export const router = createBrowserRouter([
     {
@@ -31,5 +32,9 @@ export const router = createBrowserRouter([
     {
         path: "/sequence-memory",
         element: <SequenceMemoryPage />,
+    },
+    {
+        path: "/number-memory",
+        element: <NumberMemoryPage />,
     },
 ]);
